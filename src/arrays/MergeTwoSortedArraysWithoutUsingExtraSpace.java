@@ -19,7 +19,8 @@ public class MergeTwoSortedArraysWithoutUsingExtraSpace {
                 long t = arr1[left];
                 arr1[left] = arr2[right];
                 arr2[right] = t;
-            }
+            } else
+                break;
             left--;
             right++;
         }
