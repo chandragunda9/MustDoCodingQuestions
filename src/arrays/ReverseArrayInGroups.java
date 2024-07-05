@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ReverseArrayInGroups {
@@ -9,10 +10,27 @@ public class ReverseArrayInGroups {
         for (int i = 0; i < n; i += k) {
             int start = i;
             int end = Math.min(n - 1, i + k - 1);
-            while (start <= end) {
+            while (start < end) {
                 int t = arr[start];
                 arr[start] = arr[end];
                 arr[end] = t;
+                start++;
+                end--;
+            }
+        }
+    }
+
+    void reverseInGroups(ArrayList<Long> arr, int k) {
+        if (k == 1)
+            return;
+        int n = arr.size();
+        for (int i = 0; i < n; i += k) {
+            int start = i;
+            int end = Math.min(n - 1, i + k - 1);
+            while (start < end) {
+                Long t = arr.get(start);
+                arr.set(start, arr.get(end));
+                arr.set(end, t);
                 start++;
                 end--;
             }
