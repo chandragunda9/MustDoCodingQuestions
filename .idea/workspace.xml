@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="trees problems">
-      <change afterPath="$PROJECT_DIR$/src/trees/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/BinaryTreeToDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/ConnectNodesAtSameLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/CountLeaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/HeightOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/IdenticalTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/LowestCommonAncestorInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/LowestCommonAncestorInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/MaximumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/MaximumWidthOfBinaryTreeGFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/MaximumWidthOfBinaryTreeLeetcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/MirrorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/BipartiteGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInDirectedGraphUsingDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInDirectedGraphUsingKahnsAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInUndirectedGraphUsingBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInUndirectedGraphUsingDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DistanceOfNearestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/FloodFillAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumProvinces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumberOfDistinctIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumberOfEnclaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/ReplaceOsWithXs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/RottenOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/learning/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/learning/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/learning/FormAdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/learning/NoOfUndirectedGraphs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/SpiralTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/SpiralTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +61,18 @@
       <recent name="D:\Learning\DSA\MustDoCodingQuestions\src\trees" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graphs.bfs_dfs_problems" />
       <recent name="trees" />
       <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumPathSum">
-    <configuration name="BuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.BuyAndSellStock" />
+  <component name="RunManager" selected="Application.NumberOfDistinctIslands">
+    <configuration name="DistanceOfNearestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.DistanceOfNearestOne" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckForBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.CheckForBST" />
+    <configuration name="NumberOfDistinctIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.NumberOfDistinctIslands" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.DiameterOfBinaryTree" />
+    <configuration name="NumberOfEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.NumberOfEnclaves" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.MaximumPathSum" />
+    <configuration name="WordLadderI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.WordLadderI" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.SpiralTraversal" />
+    <configuration name="WordLadderII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.WordLadderII" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumPathSum" />
-        <item itemvalue="Application.DiameterOfBinaryTree" />
-        <item itemvalue="Application.SpiralTraversal" />
-        <item itemvalue="Application.CheckForBST" />
-        <item itemvalue="Application.BuyAndSellStock" />
+        <item itemvalue="Application.NumberOfDistinctIslands" />
+        <item itemvalue="Application.WordLadderII" />
+        <item itemvalue="Application.WordLadderI" />
+        <item itemvalue="Application.NumberOfEnclaves" />
+        <item itemvalue="Application.DistanceOfNearestOne" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720167751378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="trees problems">
+      <option name="closed" value="true" />
+      <created>1720446260516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720446260516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +241,11 @@
           <url>file://$PROJECT_DIR$/src/trees/MaximumPathSum.java</url>
           <line>32</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderII.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
