@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="trees problems">
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/BipartiteGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInDirectedGraphUsingDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInDirectedGraphUsingKahnsAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInUndirectedGraphUsingBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DetectCycleInUndirectedGraphUsingDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/DistanceOfNearestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/FloodFillAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumProvinces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumberOfDistinctIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/NumberOfEnclaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/ReplaceOsWithXs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/RottenOranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/learning/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/learning/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/learning/FormAdjacencyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/learning/NoOfUndirectedGraphs.java" afterDir="false" />
+    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="BFS/DFS problems">
+      <change afterPath="$PROJECT_DIR$/src/graphs/toposort/CourseScheduleI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/toposort/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/toposort/EventualSafeStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/toposort/TopologicalSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +52,26 @@
       <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfDistinctIslands">
-    <configuration name="DistanceOfNearestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.DistanceOfNearestOne" />
+  <component name="RunManager" selected="Application.CourseScheduleI">
+    <configuration name="CourseScheduleI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.toposort.CourseScheduleI" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
+          <option name="PATTERN" value="graphs.toposort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseScheduleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.toposort.CourseScheduleII" />
+      <module name="MustDoCodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.toposort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,19 +81,6 @@
     </configuration>
     <configuration name="NumberOfDistinctIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.NumberOfDistinctIslands" />
-      <module name="MustDoCodingQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphs.bfs_dfs_problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.bfs_dfs_problems.NumberOfEnclaves" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseScheduleI" />
+        <item itemvalue="Application.CourseScheduleII" />
         <item itemvalue="Application.NumberOfDistinctIslands" />
         <item itemvalue="Application.WordLadderII" />
         <item itemvalue="Application.WordLadderI" />
-        <item itemvalue="Application.NumberOfEnclaves" />
-        <item itemvalue="Application.DistanceOfNearestOne" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +177,22 @@
       <option name="project" value="LOCAL" />
       <updated>1720446260516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BFS/DFS problems">
+      <option name="closed" value="true" />
+      <created>1720701045457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720701045457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="arrays problems" />
     <MESSAGE value="trees problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="trees problems" />
+    <MESSAGE value="BFS/DFS problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS/DFS problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
