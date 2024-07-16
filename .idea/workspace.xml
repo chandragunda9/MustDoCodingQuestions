@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="shortestpath problems">
-      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/NetworkDelayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/PathWithMinimumEffort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/BellmanFordAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/CityWithSmallestNoOfNeighbors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/FloydWarshallAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/shortest_path/MinimumStepsToReachEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/shortest_path/NumberOfWaysToArriveAtDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/shortest_path/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +54,9 @@
       <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkDelayTime">
-    <configuration name="CheapestFlightsWithinKStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.CheapestFlightsWithinKStops" />
+  <component name="RunManager" selected="Application.CityWithSmallestNoOfNeighbors">
+    <configuration name="BellmanFordAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.BellmanFordAlgorithm" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkDelayTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.NetworkDelayTime" />
+    <configuration name="CityWithSmallestNoOfNeighbors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.CityWithSmallestNoOfNeighbors" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathWithMinimumEffort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.PathWithMinimumEffort" />
+    <configuration name="FloydWarshallAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.FloydWarshallAlgorithm" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathInABinaryMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.ShortestPathInABinaryMaze" />
+    <configuration name="MinimumStepsToReachEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.MinimumStepsToReachEnd" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathInDAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.ShortestPathInDAG" />
+    <configuration name="NumberOfWaysToArriveAtDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.shortest_path.NumberOfWaysToArriveAtDestination" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NetworkDelayTime" />
-        <item itemvalue="Application.CheapestFlightsWithinKStops" />
-        <item itemvalue="Application.PathWithMinimumEffort" />
-        <item itemvalue="Application.ShortestPathInABinaryMaze" />
-        <item itemvalue="Application.ShortestPathInDAG" />
+        <item itemvalue="Application.CityWithSmallestNoOfNeighbors" />
+        <item itemvalue="Application.FloydWarshallAlgorithm" />
+        <item itemvalue="Application.BellmanFordAlgorithm" />
+        <item itemvalue="Application.MinimumStepsToReachEnd" />
+        <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
       </list>
     </recent_temporary>
   </component>
