@@ -6,22 +6,23 @@ import java.util.List;
 import java.util.Queue;
 
 public class EventualSafeStates {
+    List<Integer> method1(int v, List<List<Integer>> adj) {
+        boolean[] vis = new boolean[v];
+        boolean[] currVis = new boolean[v];
+        boolean[] isSafe = new boolean[v];
+        for (int i = 0; i < v; i++) {
+            if (!vis[i]) {
+                dfs(i, vis, currVis, isSafe, adj);
+            }
+        }
+        List<Integer> ans = new ArrayList<>();
+        for (int i = 0; i < isSafe.length; i++) {
+            if (isSafe[i])
+                ans.add(i);
+        }
+        return ans;
+    }
     List<Integer> eventualSafeNodes(int v, List<List<Integer>> adj) {
-//        boolean[] vis = new boolean[v];
-//        boolean[] currVis = new boolean[v];
-//        boolean[] isSafe = new boolean[v];
-//        for (int i = 0; i < v; i++) {
-//            if (!vis[i]) {
-//                dfs(i, vis, currVis, isSafe, adj);
-//            }
-//        }
-//        List<Integer> ans = new ArrayList<>();
-//        for (int i = 0; i < isSafe.length; i++) {
-//            if (isSafe[i])
-//                ans.add(i);
-//        }
-//        return ans;
-
         //By using kahns algorithm
         int[] inDeg = new int[v];
         for (List<Integer> al : adj) {

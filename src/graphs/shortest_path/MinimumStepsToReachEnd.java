@@ -16,8 +16,10 @@ public class MinimumStepsToReachEnd {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 5, 7};
-        int start = 3, end = 30;
+//        int[] arr = {2, 5, 7};
+//        int start = 3, end = 30;
+        int[] arr = {3, 4, 65};
+        int start = 7, end = 66175;
         System.out.println(minimumMultiplications(arr, start, end));
     }
 

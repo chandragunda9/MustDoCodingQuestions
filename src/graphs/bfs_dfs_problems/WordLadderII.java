@@ -25,13 +25,13 @@ public class WordLadderII {
             String lastWord = seq.get(seq.size() - 1);
 
             //removing words used in previous levels
-            if (seq.size() > level) {
+//            if (seq.size() > level) {
                 for (String word : usedWordsOnPreLevels) {
                     se.remove(word);
                 }
                 usedWordsOnPreLevels.clear();
                 level++;
-            }
+//            }
 
             if (lastWord.equals(targetWord)) {
                 if (ans.isEmpty() || ans.get(0).size() == seq.size()) {
