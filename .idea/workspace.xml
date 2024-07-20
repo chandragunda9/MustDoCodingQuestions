@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="disjointset problems">
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/MakingALargeIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/ArticulationPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/BridgesInAGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/FindWhetherEdgeIsBridgeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/KosarajusAlgorithm.java" afterDir="false" />
+    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="other algos problems">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721403526077</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="other algos problems">
+      <option name="closed" value="true" />
+      <created>1721487573910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721487573910</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +233,8 @@
     <MESSAGE value="toposort problems" />
     <MESSAGE value="shortestpath problems" />
     <MESSAGE value="disjointset problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="disjointset problems" />
+    <MESSAGE value="other algos problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="other algos problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
