@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="shortestpath problems">
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/AccountsMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/DisjointSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/KruskalsAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/MaximumStoneRemoval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/MinimizeConnections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/NumberOfIslandII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/PrimsAlgorithm.java" afterDir="false" />
+    <list default="true" id="e575c46d-b895-439c-965a-ea57fd0c3f78" name="Changes" comment="disjointset problems">
+      <change afterPath="$PROJECT_DIR$/src/graphs/mst_disjointset/MakingALargeIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/ArticulationPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/BridgesInAGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/FindWhetherEdgeIsBridgeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/other_algorithms/KosarajusAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/bfs_dfs_problems/WordLadderII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/shortest_path/CheapestFlightsWithinKStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/shortest_path/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/shortest_path/MinimumStepsToReachEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/shortest_path/MinimumStepsToReachEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/toposort/EventualSafeStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/toposort/EventualSafeStates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
       <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslandII">
+  <component name="RunManager" selected="Application.ArticulationPoint">
     <configuration name="AccountsMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.mst_disjointset.AccountsMerge" />
       <module name="MustDoCodingQuestions" />
@@ -74,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisjointSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.mst_disjointset.DisjointSet" />
+    <configuration name="ArticulationPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.other_algorithms.ArticulationPoint" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.mst_disjointset.*" />
+          <option name="PATTERN" value="graphs.other_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumStoneRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.mst_disjointset.MaximumStoneRemoval" />
+    <configuration name="BridgesInAGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.other_algorithms.BridgesInAGraph" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.mst_disjointset.*" />
+          <option name="PATTERN" value="graphs.other_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimizeConnections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.mst_disjointset.MinimizeConnections" />
+    <configuration name="FindWhetherEdgeIsBridgeOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.other_algorithms.FindWhetherEdgeIsBridgeOrNot" />
       <module name="MustDoCodingQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.mst_disjointset.*" />
+          <option name="PATTERN" value="graphs.other_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArticulationPoint" />
+        <item itemvalue="Application.BridgesInAGraph" />
+        <item itemvalue="Application.FindWhetherEdgeIsBridgeOrNot" />
         <item itemvalue="Application.NumberOfIslandII" />
         <item itemvalue="Application.AccountsMerge" />
-        <item itemvalue="Application.MaximumStoneRemoval" />
-        <item itemvalue="Application.MinimizeConnections" />
-        <item itemvalue="Application.DisjointSet" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721146169157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="disjointset problems">
+      <option name="closed" value="true" />
+      <created>1721403526077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721403526077</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +228,8 @@
     <MESSAGE value="BFS/DFS problems" />
     <MESSAGE value="toposort problems" />
     <MESSAGE value="shortestpath problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortestpath problems" />
+    <MESSAGE value="disjointset problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="disjointset problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
