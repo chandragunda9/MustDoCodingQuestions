@@ -7,7 +7,22 @@ public class MinimumPlatforms {
         int[] arr = {900, 940, 950, 1100, 1500, 1800};
         int[] dep = {910, 1200, 1120, 1130, 1900, 2000};
         System.out.println(method1(arr, dep, arr.length));
+        System.out.println(method2(arr, dep, arr.length));
         System.out.println(findPlatform(arr, dep, arr.length));
+    }
+
+    static int method2(int arr[], int dep[], int n) {
+        int[] time = new int[2360];
+        for (int i = 0; i < n; i++) {
+            for (int j = arr[i]; j <= dep[i]; j++) {
+                time[j]++;
+            }
+        }
+        int minPlatforms = 1;
+        for (int i = 0; i < 2360; i++) {
+            minPlatforms = Math.max(minPlatforms, time[i]);
+        }
+        return minPlatforms;
     }
 
     static int method1(int arr[], int dep[], int n) {
